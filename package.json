@@ -1,6 +1,6 @@
 {
   "name": "@basemachina/react-inspector",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "Power of Browser DevTools inspectors right inside your React app",
   "keywords": [
     "devtools",
