@@ -1,8 +1,16 @@
 # react-inspector
 
-[![build status](https://img.shields.io/travis/storybookjs/react-inspector/master.svg?style=flat-square)](https://travis-ci.org/storybookjs/react-inspector)
-[![npm version](https://img.shields.io/npm/v/react-inspector.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector)
-[![npm downloads](https://img.shields.io/npm/dm/react-inspector.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector)
+<!-- [![npm version](https://img.shields.io/npm/v/react-inspector.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector) -->
+
+This repository is a fork of [storybookjs/react-inspector](https://github.com/storybookjs/react-inspector).
+
+## Changes
+
+Here are the main changes:
+
+- support `replacer` prop to replace the object properties like `replacer` argument in `JSON.stringify`
+
+---
 
 Power of [Browser DevTools](https://developers.google.com/web/tools/chrome-devtools/) inspectors right inside your React app. Check out the [interactive playground](https://storybookjs.github.io/react-inspector/) or [storybook](https://react-inspector.netlify.com).
 
@@ -17,7 +25,7 @@ Power of [Browser DevTools](https://developers.google.com/web/tools/chrome-devto
 NPM:
 
 ```sh
-npm install react-inspector
+npm install @basemachina/react-inspector
 ```
 
 Recommended versions:
